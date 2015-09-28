@@ -1,0 +1,18 @@
+'<div class="modal-header">
+    <h4 class="modal-title">Date Picker Test</h4>
+</div>
+<div class="modal-body">
+    <p class="input-group">
+        <input type="text" class="form-control" datepicker-popup="dd-MMMM-yyyy" ng-model="data.dt" datepicker-mode="year" is-open="opened" show-button-bar="false" />
+        <span class="input-group-btn">
+            <button class="btn btn-default" ng-click="open($event)">
+            <span class="glyphicon glyphicon-calendar">
+
+            </span>
+            </button>
+        </span>
+    </p>
+</div>
+<div class="modal-footer">
+    <button class="btn btn-default" ng-click="done()">Done</button>
+</div>
